@@ -9,39 +9,68 @@ img {
   width: 100%;
 }
 
+.headerNavBtn {
+  padding: 0.4rem 0.6rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: white;
+}
+
 body {
   width: 100%;
   height: 100vh;
 }
 body header {
-  background-color: #c3c3c3;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  height: 10vh;
+  height: 18vh;
   padding: 0.5rem;
-  gap: 10px;
+  gap: 5px;
+  border-bottom: 1px solid black;
+}
+body header .navigationHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .navigationHome .logoBox a .logoHeader {
+  margin: 0.5rem;
+  width: 10rem;
+}
+body header .navigationHome .iconsNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+body header .navigationHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 body header .navigationHeader .searchBox {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
-  width: 90%;
-  height: 3.5vh;
+  width: 19rem;
+  height: 3.8vh;
   border: 0.5px solid black;
   border-radius: 10px;
   padding: 0px 10px;
 }
 body header .navigationHeader .searchBox #searchBar {
   border: none;
-  width: 90%;
+  width: 94%;
+  height: 1.4rem;
+  padding: 0.4rem 0.2rem;
+  outline: none;
 }
-body header .navigationHeader .iconsNav .menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+body header .navigationHeader .searchBox .searchBtn {
+  padding: 0rem 0.2rem;
   border: none;
-  padding: 0.4rem;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
